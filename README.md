@@ -15,7 +15,7 @@ flowchart LR
     D -- no --> C
     D -- yes --> E[Bot sends map location<br>of the next QR code]
     E --> A
-    E -- last riddle solved --> F[🎉 Hunt completed]
+    E -- last riddle solved --> F[Hunt completed]
 ```
 
 1. Each QR code encodes a Telegram **deep link** (`https://t.me/<bot_name>?start=question_N`).
